@@ -4,13 +4,17 @@
 
 ### Supervised Learning
 
-[Cloud detection on LandSat data](/sample_page)
-<img src="images/cloud_detection.jpg?raw=true"/>
+[Cloud detection on LandSat data](/sample_page) 
+
 blablablabl
+
+<img src="images/cloud_detection.jpg?raw=true"/>
 ---
 [Predicting failure on water pumps](/pdf/sample_presentation.pdf)
-<img src="images/water pump.jpg?raw=true"/>
+
 blablablabl
+
+<img src="images/water_pump.jpg?raw=true"/>
 ---
 
 ### Descriptive Analytics
