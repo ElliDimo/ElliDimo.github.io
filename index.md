@@ -1,23 +1,19 @@
-## Portfolio
+## Projects
 
 ---
 
-### Category Name 1 
+### Supervised Learning
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
+[Cloud detection on LandSat data](/sample_page)
+<img src="images/cloud_detection.jpg?raw=true"/>
+blablablabl
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
+[Predicting failure on water pumps](/pdf/sample_presentation.pdf)
+<img src="images/water pump.jpg?raw=true"/>
+blablablabl
 ---
 
-### Category Name 2
+### Descriptive Analytics
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
