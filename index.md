@@ -9,6 +9,9 @@
 blablablabl
 
 <img src="images/cloud_detection.jpg?raw=true"/>
+
+[View code on Colab](https://colab.research.google.com/drive/1bFk4JMhGPUOF2gwgHQ20zuOZW6GeDIcC#scrollTo=N-z1lmWvndFC)
+
 ---
 [Predicting failure on water pumps](/pdf/sample_presentation.pdf)
 
