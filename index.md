@@ -9,6 +9,7 @@ Comparing 3 different forecast models against actual weather data, including tem
 <img src="images/temperature_diff_box_plot.svg"/>
 
 [Temperature evaluation report](/weather_forecast_evaluation_report)
+
 [View code on Github](https://github.com/ElliDimo/weather_forecast_evaluation/tree/main)
 
 ---
