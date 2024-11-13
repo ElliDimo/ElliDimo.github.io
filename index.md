@@ -23,9 +23,9 @@ Being able to detect cloud presence in the data is essential for accurate result
 
 ---
 
-### [Predicting failure on water pumps](/pdf/sample_presentation.pdf)
+### Predicting failure on water pumps
 
-Pump it Up is a practice competition hosted on [DrivenData](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/) 
+[Pump it Up](https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/page/23/) is a Predictive Maintenance practice competition hosted on [DrivenData](https://www.drivendata.org/)
 which aims at predicting faulty water pumps across Tanzania using data from Taarifa open source platform.
 
 <img src="images/water_pump.jpg?raw=true"/>
