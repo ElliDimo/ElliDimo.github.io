@@ -6,7 +6,7 @@
 
 Comparing 3 different forecast models against actual weather data, including temperature, wind direction & speed.
 
-<img src="images/temperature_actual_vs_forecast.jpg" alt="drawing" width="1200"/>
+<img src="images/temperature_diff_box_plot.svg"/>
 
 [View code on Github](https://github.com/ElliDimo/weather_forecast_evaluation/tree/main)
 
