@@ -1,31 +1,44 @@
-## This will be the report
+# Weather forecast evaluation results
 
-**Project description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+### Error metrics used: RMSE and MAE
+* **Temperature unit: degrees Celsius** 
+* **Wind speed unit: m/s**
+* **Wind direction unit: degrees**
 
-### 1. Suggest hypotheses about the causes of observed phenomena
+### * Temperature
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+| Source   | GFS        | IFS      | ICONEU
+| :------- |  :------:  |   ----:  |   ----:  
+| RMS      |   1.977267 | 2.542639 | 1.976352
+| MAE      |   1.659351 | 1.692443 | 1.423271
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
 
-### 2. Assess assumptions on which statistical inference will be based
 
-```javascript
-if (isAwesome){
-  return true
-}
-```
+### * Wind speed
 
-### 3. Support the selection of appropriate statistical tools and techniques
+| Source   | GFS        | IFS      | ICONEU
+| :------- |  :------:  |   ----:  |   ----:  
+| RMS      |   1.857039 | 2.44719  | 1.49759
+| MAE      |   1.486429 | 2.097675 | 1.28886
 
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
 
-### 4. Provide a basis for further data collection through surveys or experiments
+### * Wind direction
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 
+| Source   | GFS          | IFS        | ICONEU
+| :------- |  :------:    |   ----:    |   ----:  
+| RMS      |   121.346781 | 95.462597  | 99.181251
+| MAE      |   81.473855  | 56.878499  | 58.0533
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+**As we can see from the tables above, for the total time period of measurements, the best models are:**
+* temperature: ICONEU
+* wind speed: ICONEU
+* wind direction: IFS
+
+**By plotting measured vs forecast temperature though we can see that the IFS and ICONEU models perform better on the first 4 days of the time period, but GFS performs similarly or better on the last 3 days, compared to the other models' forecasts, where available.**
+
+<img src="images/temperature_actual_vs_forecast.jpg?raw=true"/>
+
+**This can be even better observed by plotting RMSE per date.**
+
+<img src="images/temperature_accuracy_per_date.svg"/>
